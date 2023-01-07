@@ -1,0 +1,61 @@
+/* *********************************/
+/* below 1344px (for smaller desktops) */
+/* *********************************/
+
+@media (max-width: 84em) {
+  html {
+    font-size: 56%;
+  }
+
+  .hero {
+    max-width: 120rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .box-item {
+    padding: 3.2rem;
+  }
+
+  .marketing-card {
+    height: 80vh;
+  }
+
+  .marketing-info {
+    margin: 5.4rem 4.8rem 0 0;
+  }
+
+  .step {
+    margin-right: 2.4rem;
+  }
+
+  .achievements-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .video-img {
+    text-align: center;
+  }
+
+  .play-icon {
+    width: 11%;
+    top: 50%;
+    left: 50%;
+  }
+
+  .video-desc {
+    margin-right: 6.4rem;
+  }
+
+  .achievements-media .img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
