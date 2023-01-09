@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Appie is Jolly good quaint james bond victoria sponge happy days cras arse over blatant."
+    />
+    <link rel="icon" href="img/sponsers/sponser-7.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,38 +36,40 @@
     <header class="header">
       <div class="header-container">
         <div class="logo-links">
-          <img src="img/logo.png" alt="appie logo" class="logo" />
+          <img src="img/logo.png" alt="appie logo" class="header-logo" />
           <nav class="navbar">
             <ul class="navbar-list">
               <li>
-                <a href="#" class="navbar-main-link"
+                <a href="#home" class="navbar-main-link"
                   >Home
                   <i class="fa-solid fa-chevron-down arr-down"></i>
                 </a>
               </li>
-              <li><a href="#" class="navbar-main-link">Service </a></li>
+              <li><a href="#service" class="navbar-main-link">Service </a></li>
               <li>
-                <a href="#" class="navbar-main-link"
+                <a href="#pages" class="navbar-main-link"
                   >Pages
                   <i class="fa-solid fa-chevron-down arr-down"></i>
                 </a>
               </li>
               <li>
-                <a href="#" class="navbar-main-link"
+                <a href="#news" class="navbar-main-link"
                   >News
                   <i class="fa-solid fa-chevron-down arr-down"></i>
                 </a>
               </li>
-              <li><a href="#" class="navbar-main-link">Contacts</a></li>
+              <li><a href="#contacts" class="navbar-main-link">Contacts</a></li>
             </ul>
           </nav>
         </div>
         <div class="cta">
-          <button><a href="#cta" class="cta-button"> Get Started</a></button>
+          <button>
+            <a href="#get-started" class="cta-button"> Get Started</a>
+          </button>
         </div>
       </div>
     </header>
-    <section class="section-hero">
+    <section class="section-hero" id="home">
       <div class="hero grid container">
         <div class="hero-info">
           <h1 class="primary-heading">
@@ -110,7 +117,7 @@
         </div>
       </div>
     </section>
-    <section class="section-how">
+    <section class="section-how" id="service">
       <div class="container center">
         <div class="section-top">
           <h2 class="secondary-heading">How does it work</h2>
@@ -240,7 +247,7 @@
         </div>
       </div>
     </section>
-    <section class="section-features">
+    <section class="section-features" id="news">
       <div class="features">
         <div class="features-heading">
           <h2 class="secondary-heading">Wherever you need us the most</h2>
@@ -290,7 +297,7 @@
         </div>
       </div>
     </section>
-    <section class="section-achieve">
+    <section class="section-achieve" id="pages">
       <div class="section-top container">
         <h2 class="secondary-heading">Achievements</h2>
         <p class="secondary-desc">
@@ -393,7 +400,7 @@
         </div>
       </div>
     </section>
-    <section class="section-pricing">
+    <section class="section-pricing" id="get-started">
       <div class="pricing-heading">
         <h3 class="secondary-heading">Simple pricing for Everyone</h3>
         <p class="pricing-desc">
@@ -613,7 +620,87 @@
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer class="footer" id="contacts">
+      <div class="cols container grid grid--footer">
+        <div class="f-col">
+          <div class="footer-logo">
+            <a href="#"> <img src="img/logo.png" alt="logo" /></a>
+          </div>
+          <p class="footer-desc">
+            Appie WordPress is theme is the last theme you will ever have.
+          </p>
+          <a href="#"
+            >Read more
+            <ion-icon name="arrow-forward" class="more-arr"></ion-icon>
+          </a>
+          <div class="footer-social">
+            <ul class="social-media">
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-pinterest-p"></i></li>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="f-col col-link1">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">About us</a></li>
+            <li><a class="footer-link" href="#">Service</a></li>
+            <li><a class="footer-link" href="#">Case Studies</a></li>
+            <li><a class="footer-link" href="#">Blog</a></li>
+            <li><a class="footer-link" href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="f-col col-link2">
+          <p class="footer-heading">Support</p>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">Community</a></li>
+            <li><a class="footer-link" href="#">Resources</a></li>
+            <li><a class="footer-link" href="#">Faqs</a></li>
+            <li><a class="footer-link" href="#">Privacy Policy</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="f-col contact-col">
+          <p class="footer-heading">Get In Touch</p>
+          <address class="contacts">
+            <div class="footer-link">
+              <i class="fa-regular fa-envelope address-icon"></i>
+              <a href="mailto:support@appie.com">support@appie.com</a>
+            </div>
+            <div class="footer-link">
+              <i class="fa-solid fa-phone address-icon"></i>
+              <a href="tel:(642) 342 762 44">+(642) 342 762 44</a>
+            </div>
+            <div class="footer-address">
+              <i class="fa-solid fa-location-dot address-icon"></i>
+              <p>442 Belle Terre St Floor 7, San Francisco, AV 4206</p>
+            </div>
+          </address>
+        </div>
+      </div>
+      <span class="plan-line"></span>
+      <div class="footer-row container">
+        <div class="app-store">
+          <div class="ios-store">
+            <div class="store-icon">
+              <i class="fa-brands fa-apple"></i>
+            </div>
+            <p>Download for IOS</p>
+          </div>
+          <div class="android-store">
+            <div class="store-icon">
+              <i class="fa-brands fa-google-play"></i>
+            </div>
+            <p>Download for Android</p>
+          </div>
+        </div>
+        <div class="copyright">
+          Copyright &copy; 2021 Appie. All rights reserved.
+        </div>
+      </div>
+    </footer>
     <script src="js/all.min.js"></script>
   </body>
 </html>

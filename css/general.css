@@ -63,6 +63,7 @@ html {
   /* Percentage of user's browser font size setting */
   font-size: 62.5%;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -128,3 +129,5 @@ body {
 .grid--center-v {
   align-items: center;
 }
+
+/* Back To Top */
