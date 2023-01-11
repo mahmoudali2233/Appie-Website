@@ -71,6 +71,7 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #0f1033;
+  overflow-x: hidden;
 }
 
 .primary-heading {

@@ -70,6 +70,46 @@
   border: none;
 }
 
+/* for responsive (tablets and mobiles) */
+
+.menu {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+  display: none;
+}
+
+.btn-menu {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: #333;
+  margin-left: 1.2rem;
+}
+
+.btn-menu[name="close"] {
+  display: none;
+}
+
+/* sticky */
+
+.sticky .header {
+  position: fixed;
+  background-color: #ecf1f2;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 8rem;
+  z-index: 999;
+}
+
+.sticky .section-hero {
+  margin-top: 9.6rem;
+}
+
 /* Section-hero */
 
 .section-hero {
@@ -183,6 +223,10 @@
 .section-how {
   background-color: #fff;
   padding: 8rem 0;
+}
+
+.how-heading {
+  justify-content: space-between;
 }
 
 .section-top {
@@ -322,7 +366,7 @@
 
 .step-heading {
   display: block;
-  margin-top: 4.8rem;
+  margin: 4.8rem -0.2rem 0 0;
 }
 
 .step-icon {
@@ -658,7 +702,7 @@
 .pricing-time {
   font-size: 1.6rem;
   display: inline-flex;
-  padding: 0.6rem 1.2rem 0.6rem 0.6rem;
+  padding: 0.6rem 1.4rem 0.6rem 0.6rem;
   border: 1px solid #2eadfc33;
   border-radius: 2.4rem;
   text-align: center;
